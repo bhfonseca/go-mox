@@ -1,4 +1,4 @@
-package go_mox
+package gomox
 
 import "fmt"
 

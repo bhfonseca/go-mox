@@ -1,1 +1,1 @@
-package go_mox
+package gomox

@@ -1,10 +1,10 @@
-package go_mox
+package gomox
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/bhfonseca/go-mox/models"
-	"github.com/bhfonseca/go-mox/utils"
+	"github.com/bhfonseca/gomox/models"
+	"github.com/bhfonseca/gomox/utils"
 )
 
 func GetAllPVENodes(PVEAddress, PVEAuth string) ([]string, error) {
