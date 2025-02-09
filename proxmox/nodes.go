@@ -1,4 +1,4 @@
-package pve
+package proxmox
 
 import (
 	"encoding/json"
