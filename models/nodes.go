@@ -11,7 +11,7 @@ type PVENodes struct {
 		MaxDisk   int         `json:"maxdisk"`
 		Disk      int         `json:"disk"`
 		MaxCPU    json.Number `json:"maxcpu"`
-		CPU       int         `json:"cpu"`
+		CPU       json.Number `json:"cpu"`
 		MaxMemory int         `json:"maxmem"`
 		Memory    int         `json:"mem"`
 	} `json:"data"`
