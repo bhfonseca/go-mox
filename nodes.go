@@ -1,4 +1,4 @@
-package proxmox
+package go_mox
 
 import (
 	"encoding/json"
