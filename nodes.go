@@ -7,7 +7,7 @@ import (
 	"github.com/bhfonseca/go-mox/utils"
 )
 
-func GetAllPVENodes(PVEAddress, PVEAuth string) (models.PVENodes, error) {
+func GetPVENodes(PVEAddress, PVEAuth string) (models.PVENodes, error) {
 	response, err := utils.PVEAPIRequester(PVEAddress, "api2/json/nodes", PVEAuth, "GET", "")
 	if err != nil {
 		return models.PVENodes{}, err
